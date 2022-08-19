@@ -1,0 +1,14 @@
+{
+    "app_name": "PyAppTemplate",
+    "author": "SFF",
+    "main_module": "src/main/python/app.py",
+    "version": "1.0.0",
+    "show_console_window" : false,
+    "hidden_imports": [
+        "PyQt5", 
+        "matplotlib.backends.backend_qt4",
+        "pkg_resources._vendor",
+        "pkg_resources.extern",
+        "pygments.lexers"
+    ]
+}

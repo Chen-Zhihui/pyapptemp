@@ -1,0 +1,168 @@
+QPalette{background:#2E2F30;}
+
+*{outline:0px;color:#BEC0C2;}
+
+QSplitter {
+    background: transparent;   
+    border : 0px; 
+    margin : 0px;
+    padding : 0px;
+}
+QSplitter::handle {
+    background: gray;   
+    border : 1px; 
+    margin : 0px;
+    padding : 0px;
+}
+QSplitter::handle:horizontal {
+    width: 1px;
+}
+QSplitter::handle:vertical {
+    height: 1px;
+}
+
+QFrame[qss_vline="true"] {
+    margin : 0px;
+    border : 1px;
+    padding : 0px;
+    background : gray;
+}
+QFrame[qss_hline="true"] {
+    margin : 0px;
+    border : 1px;
+    padding : 0px;
+    background : gray;
+}
+QFrame {
+    margin : 0px;
+    border : 0px;
+    padding : 0px;
+    background : transparent;
+}
+
+/* QStackedWidget {
+    margin : 0px;
+    border : 0px;
+    padding: 0px;
+    color : transparent;
+    background : transparent;
+} */
+
+QHeaderView::section, QTableCornerButton:section{
+padding:3px;
+margin:0px;
+color:#BEC0C2;
+border:1px solid #67696B;
+border-left-width:0px;
+border-right-width:1px;
+border-top-width:0px;
+border-bottom-width:1px;
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,
+stop:0 #a1a1a1,
+stop:0.01 #515151,
+stop:0.5 #242424,
+stop:0.99 #515151,
+stop:1 #a1a1a1
+);
+}
+
+QToolBar {    
+    background: #3E3F40;
+    /* border:1px solid #67696B; */
+    spacing: 3px; /* spacing between items in the tool bar */
+}
+QToolBar::handle {
+    background: gray;
+}
+
+.QPushButton {
+    border-style:none;
+    border-style:solid; 
+    border-width:1px 1px 1px 1px;
+    border-color:gray;  
+    margin : 0px;       
+    padding: 0px;  
+    color:#54626F;
+    background:#2E2F30;
+    font: bold 16px "Microsoft YaHei";
+} 
+
+.QPushButton:hover {
+    margin : 0px;   
+    border-style:solid; 
+    border-width:1px 1px 1px 1px;
+    border-color:#028FDA;   
+    padding:6px 6px 6px 3px;
+    color:#FDFDFD;
+    background:#2D252A;
+}
+
+.QToolButton{
+    border-style:none;
+    border:0px solid #67696B;
+    width: 40px;
+    color:#BEC0C2;
+    padding:0px;
+    min-height:15px;
+    border-radius:0px;
+    background : transparent
+/* background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #404244,stop:1 #404244); */
+}
+
+QToolButton::menu-arrow {
+    width: 80px;
+}
+
+.QToolButton:hover{
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #262829,stop:1 #262829);
+}
+
+.QToolButton:pressed{
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #404244,stop:1 #404244);
+}
+
+.QToolButton::menu-indicator{
+image:None;
+}
+
+QComboBox {
+    /* border: 1px solid gray; */
+    border-radius: 0px;
+    padding: 0px 0px 0px 0px;
+    background:#4E4F50; 
+    /* height: 30      */
+}
+
+QComboBox::drop-down {   
+     width: 20px; 
+}
+QComboBox::down-arrow { 
+}
+
+QComboBox QAbstractItemView {
+    margin : 0px;    
+    background:#4E4F50;
+    border: 0px solid darkgray;
+    /* selection-background-color: lightgray; */
+}
+
+QComboBox QAbstractItemView::item {
+    margin : 2px;
+    height: 30px;
+    width : 100px;
+    border: 1px solid transparent; /* reserve space for selection border */
+}
+
+QComboBox QAbstractItemView::item:selected {
+    border-color: darkblue;
+    background: rgba(100, 100, 100, 150);
+}
+
+QLineEdit {
+    border: 0px solid gray;
+    border-radius: 0px;
+    padding: 0 8px;
+    background: rgba(100, 100, 100, 150);
+    color: lightgray;
+    selection-background-color: darkgray;
+}

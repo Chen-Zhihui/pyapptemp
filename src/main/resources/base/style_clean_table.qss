@@ -1,0 +1,29 @@
+QTableView{
+border:0px solid #67696B;
+padding:0px;
+margin:0px;
+show-decoration-selected: 1;
+selection-background-color:#262829;
+alternate-background-color:#262829;
+selection-color:#BEC0C2;
+gridline-color:#67696B;
+background:#404040;
+}
+
+QTableView QLineEdit,QTableView QComboBox,QTableView QSpinBox,QTableView QDoubleSpinBox,QTableView QDateEdit,QTableView QTimeEdit,QTableView QDateTimeEdit{
+border-width:0px;
+border-radius:0px;
+}
+
+QTableView QLineEdit:focus,QTableView QComboBox:focus,QTableView QSpinBox:focus,QTableView QDoubleSpinBox:focus,QTableView QDateEdit:focus,QTableView QTimeEdit:focus,QTableView QDateTimeEdit:focus{
+border-width:0px;
+border-radius:0px;
+}
+
+QTableView::indicator:unchecked {
+    background-color: #d7d6d5
+}
+
+/* QTableView QHeaderView {
+    background: transparent
+} */

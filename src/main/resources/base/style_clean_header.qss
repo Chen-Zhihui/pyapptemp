@@ -1,0 +1,24 @@
+        
+HeaderWidget {
+    /* background: #4E4F50; */
+    background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,
+    stop:0 #a1a1a1,
+    stop:0.01 #515151,
+    stop:0.5 #242424,
+    stop:0.99 #515151,
+    stop:1 #a1a1a1
+    );
+}
+
+HeaderWidget QLabel {
+    font: bold 28px "Microsoft YaHei";
+    /* background: #312e2c */
+}
+
+HeaderWidget QToolButton {
+    /* border-style:none; */
+    margin : 0px;    
+    padding : 0px;
+    border : solid 3px;
+    background : #F00;
+}

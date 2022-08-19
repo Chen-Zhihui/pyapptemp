@@ -1,0 +1,54 @@
+EvaluateView {
+background-color: #2E2F30;
+}
+
+ProjMngrView {
+background-color: #2E2F30;
+}
+
+DataMngrView {
+background-color: #2E2F30;
+}
+
+MatchView {
+background-color: #404040;
+}
+
+StatView {
+background-color: #404040;
+}
+
+SettingView {
+background-color: #404040;
+}
+
+FileView {    
+background-color: #404040;
+}
+
+BatchView {    
+background-color: #404040;
+}
+
+ScenceFrame {    
+background-color: #404040;
+}
+
+ScenceList {    
+background-color: #404040;
+}
+
+TargetFrame {    
+background-color: #404040;
+}
+
+SelectFrame {    
+background-color: #404040;
+}
+
+* {
+    font: bold 14px "Microsoft YaHei";
+}
+
+QToolbar > QPushButton {
+}

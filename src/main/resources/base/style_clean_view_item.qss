@@ -1,0 +1,24 @@
+QTableView::item, QTreeView::item, QListView::item{
+padding:0px;
+margin:0px;
+}
+
+QTableView::item:selected, QTreeView::item:selected, QListView::item:selected{
+color:#BEC0C2;
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #404244,stop:1 #404244);
+}
+
+QTableView::item:hover, QTreeView::item:hover, QListView::item:hover{
+color:#BEC0C2;
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #464849,stop:1 #464849);
+}
+
+QTableView::item:selected:active, QTreeView::item:selected:active, QListView::item:selected:active {
+	background: #59F;
+	color: #EEEEEF;
+}
+
+QTableView::item:selected:!active, QTreeView::item:selected:!active, QListView::item:selected:!active {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #6b9be8, stop: 1 #577fbf);
+}
+

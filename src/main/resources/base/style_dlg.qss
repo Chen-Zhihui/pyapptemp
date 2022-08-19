@@ -1,0 +1,12 @@
+QDialog {
+background:#4E4F50;
+}
+
+QDialog QPushButton {
+    width: 100;
+    height : 40;
+}
+
+QDialog QTableView{
+background:#4E4F50;
+}
